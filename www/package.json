@@ -1,0 +1,36 @@
+{
+  "name": "uuid-dashboard",
+  "version": "0.1.0",
+  "description": "UUID Dashboard using WASM via Rust",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregl83/uuid-dashboard.git"
+  },
+  "keywords": [
+    "uuid",
+    "webassembly",
+    "wasm",
+    "rust",
+    "webpack"
+  ],
+  "author": "Gregory Langlais <general@gregorylanglais.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gregl83/uuid-dashboard/issues"
+  },
+  "homepage": "https://github.com/gregl83/uuid-dashboard#readme",
+  "dependencies": {
+    "uuid-dashboard": "file:../pkg"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.0",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
