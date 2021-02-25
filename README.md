@@ -15,6 +15,10 @@ $ wasm-pack build
 www$ npm run start 
 ```
 
+## References
+
+- [RFC-4122](https://tools.ietf.org/html/rfc4122)
+
 ## License
 
 [MIT](LICENSE)
