@@ -18,6 +18,7 @@ www$ npm run start
 ## References
 
 - [RFC-4122](https://tools.ietf.org/html/rfc4122)
+- [Rust UUID](https://docs.rs/uuid/)
 
 ## License
 
